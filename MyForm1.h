@@ -40,27 +40,10 @@ namespace Taxes {
 
 	private: System::Windows::Forms::ToolStripMenuItem^ сохранитьToolStripMenuItem;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	private: System::Windows::Forms::ToolStripMenuItem^ сервисToolStripMenuItem;
-
 
 	private: System::Windows::Forms::ToolStripMenuItem^ справкаToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ содержаниеToolStripMenuItem;
-
-
 
 	private: System::Windows::Forms::ToolStripMenuItem^ опрограммеToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ toolStripMenuItem1;
@@ -68,42 +51,13 @@ namespace Taxes {
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::DataGridView^ dataGridView1;
 
-
-
-
-
-
-
-
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::DataGridView^ dataGridView2;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	private: System::Windows::Forms::ToolStripMenuItem^ расчетНалоговToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ правкаToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ добавитьПлательщика;
 	private: System::Windows::Forms::ToolStripMenuItem^ удалить;
-
-
-
-
-
-
-
-
-
 
 	private: System::Windows::Forms::ToolStripMenuItem^ сохранитьДанныеОПлательщиковToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ сохранитьТаблицуНалоговToolStripMenuItem;
@@ -129,78 +83,7 @@ private: System::Windows::Forms::DataGridViewTextBoxColumn^ TransportniyNalog;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ ZemelniyNalog;
 private: System::Windows::Forms::DataGridViewTextBoxColumn^ NalogNaNedvizhimost;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	protected:
-
-
-
-
 	private:
 		/// <summary>
 		/// Обязательная переменная конструктора.
