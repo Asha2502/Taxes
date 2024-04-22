@@ -10,7 +10,7 @@ namespace Taxes {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для AddingForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї AddingForm
 	/// </summary>
 	public ref class AddingForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace Taxes {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~AddingForm()
 		{
@@ -36,33 +36,9 @@ namespace Taxes {
 		}
 	private: System::Windows::Forms::MenuStrip^ menuStrip1;
 	protected:
-	private: System::Windows::Forms::ToolStripMenuItem^ наГлавнуюToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ выход;
-	private: System::Windows::Forms::ToolStripMenuItem^ вернутьсяНазадToolStripMenuItem;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	private: System::Windows::Forms::ToolStripMenuItem^ Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ГўГ»ГµГ®Г¤;
+	private: System::Windows::Forms::ToolStripMenuItem^ ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem;
 
 	private: System::Windows::Forms::GroupBox^ groupBox1;
 	private: System::Windows::Forms::ComboBox^ comboBox1;
@@ -70,37 +46,24 @@ namespace Taxes {
 	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::ComboBox^ comboBox2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(AddingForm::typeid));
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
-			this->вернутьсяНазадToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->наГлавнуюToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->выход = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ГўГ»ГµГ®Г¤ = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
 			this->comboBox2 = (gcnew System::Windows::Forms::ComboBox());
 			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
@@ -115,8 +78,8 @@ namespace Taxes {
 			this->menuStrip1->GripMargin = System::Windows::Forms::Padding(2, 2, 0, 2);
 			this->menuStrip1->ImageScalingSize = System::Drawing::Size(24, 24);
 			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
-				this->вернутьсяНазадToolStripMenuItem,
-					this->наГлавнуюToolStripMenuItem, this->выход
+				this->ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem,
+					this->Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem, this->ГўГ»ГµГ®Г¤
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
@@ -124,30 +87,30 @@ namespace Taxes {
 			this->menuStrip1->TabIndex = 0;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
-			// вернутьсяНазадToolStripMenuItem
+			// ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem
 			// 
-			this->вернутьсяНазадToolStripMenuItem->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"вернутьсяНазадToolStripMenuItem.Image")));
-			this->вернутьсяНазадToolStripMenuItem->Name = L"вернутьсяНазадToolStripMenuItem";
-			this->вернутьсяНазадToolStripMenuItem->Size = System::Drawing::Size(185, 32);
-			this->вернутьсяНазадToolStripMenuItem->Text = L"Вернуться назад";
-			this->вернутьсяНазадToolStripMenuItem->Click += gcnew System::EventHandler(this, &AddingForm::вернутьсяНазадToolStripMenuItem_Click);
+			this->ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem.Image")));
+			this->ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem->Name = L"ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem";
+			this->ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem->Size = System::Drawing::Size(185, 32);
+			this->ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem->Text = L"Г‚ГҐГ°Г­ГіГІГјГ±Гї Г­Г Г§Г Г¤";
+			this->ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem->Click += gcnew System::EventHandler(this, &AddingForm::ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem_Click);
 			// 
-			// наГлавнуюToolStripMenuItem
+			// Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem
 			// 
-			this->наГлавнуюToolStripMenuItem->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"наГлавнуюToolStripMenuItem.Image")));
-			this->наГлавнуюToolStripMenuItem->Name = L"наГлавнуюToolStripMenuItem";
-			this->наГлавнуюToolStripMenuItem->Size = System::Drawing::Size(148, 32);
-			this->наГлавнуюToolStripMenuItem->Text = L"На главную";
-			this->наГлавнуюToolStripMenuItem->Click += gcnew System::EventHandler(this, &AddingForm::наГлавнуюToolStripMenuItem_Click);
+			this->Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem.Image")));
+			this->Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem->Name = L"Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem";
+			this->Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem->Size = System::Drawing::Size(148, 32);
+			this->Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem->Text = L"ГЌГ  ГЈГ«Г ГўГ­ГіГѕ";
+			this->Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem->Click += gcnew System::EventHandler(this, &AddingForm::Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem_Click);
 			// 
-			// выход
+			// ГўГ»ГµГ®Г¤
 			// 
-			this->выход->Alignment = System::Windows::Forms::ToolStripItemAlignment::Right;
-			this->выход->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"выход.Image")));
-			this->выход->Name = L"выход";
-			this->выход->Size = System::Drawing::Size(104, 32);
-			this->выход->Text = L"Выход";
-			this->выход->Click += gcnew System::EventHandler(this, &AddingForm::выход_Click);
+			this->ГўГ»ГµГ®Г¤->Alignment = System::Windows::Forms::ToolStripItemAlignment::Right;
+			this->ГўГ»ГµГ®Г¤->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"ГўГ»ГµГ®Г¤.Image")));
+			this->ГўГ»ГµГ®Г¤->Name = L"ГўГ»ГµГ®Г¤";
+			this->ГўГ»ГµГ®Г¤->Size = System::Drawing::Size(104, 32);
+			this->ГўГ»ГµГ®Г¤->Text = L"Г‚Г»ГµГ®Г¤";
+			this->ГўГ»ГµГ®Г¤->Click += gcnew System::EventHandler(this, &AddingForm::ГўГ»ГµГ®Г¤_Click);
 			// 
 			// groupBox1
 			// 
@@ -160,19 +123,19 @@ namespace Taxes {
 			this->groupBox1->Size = System::Drawing::Size(395, 71);
 			this->groupBox1->TabIndex = 26;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Параметры поиска";
+			this->groupBox1->Text = L"ГЏГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®ГЁГ±ГЄГ ";
 			// 
 			// comboBox2
 			// 
 			this->comboBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->comboBox2->FormattingEnabled = true;
-			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Ниже", L"Выше" });
+			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"ГЌГЁГ¦ГҐ", L"Г‚Г»ГёГҐ" });
 			this->comboBox2->Location = System::Drawing::Point(244, 26);
 			this->comboBox2->Name = L"comboBox2";
 			this->comboBox2->Size = System::Drawing::Size(139, 28);
 			this->comboBox2->TabIndex = 30;
-			this->comboBox2->Text = L"Ниже/Выше";
+			this->comboBox2->Text = L"ГЌГЁГ¦ГҐ/Г‚Г»ГёГҐ";
 			// 
 			// comboBox1
 			// 
@@ -180,14 +143,14 @@ namespace Taxes {
 				static_cast<System::Byte>(204)));
 			this->comboBox1->FormattingEnabled = true;
 			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
-				L"Подоходный налог", L"Транспортный налог", L"Земельный налог",
-					L"Налог на недвижимость"
+				L"ГЏГ®Г¤Г®ГµГ®Г¤Г­Г»Г© Г­Г Г«Г®ГЈ", L"Г’Г°Г Г­Г±ГЇГ®Г°ГІГ­Г»Г© Г­Г Г«Г®ГЈ", L"Г‡ГҐГ¬ГҐГ«ГјГ­Г»Г© Г­Г Г«Г®ГЈ",
+					L"ГЌГ Г«Г®ГЈ Г­Г  Г­ГҐГ¤ГўГЁГ¦ГЁГ¬Г®Г±ГІГј"
 			});
 			this->comboBox1->Location = System::Drawing::Point(6, 26);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(232, 28);
 			this->comboBox1->TabIndex = 29;
-			this->comboBox1->Text = L"Выберите налог";
+			this->comboBox1->Text = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ Г­Г Г«Г®ГЈ";
 			// 
 			// textBox0
 			// 
@@ -197,7 +160,7 @@ namespace Taxes {
 			this->textBox0->Name = L"textBox0";
 			this->textBox0->Size = System::Drawing::Size(240, 26);
 			this->textBox0->TabIndex = 27;
-			this->textBox0->Text = L"Введите число";
+			this->textBox0->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®";
 			// 
 			// button1
 			// 
@@ -210,7 +173,7 @@ namespace Taxes {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(125, 37);
 			this->button1->TabIndex = 28;
-			this->button1->Text = L"Найти";
+			this->button1->Text = L"ГЌГ Г©ГІГЁ";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &AddingForm::button1_Click);
 			// 
@@ -233,7 +196,7 @@ namespace Taxes {
 			this->MinimumSize = System::Drawing::Size(650, 200);
 			this->Name = L"AddingForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Поиск плательщиков";
+			this->Text = L"ГЏГ®ГЁГ±ГЄ ГЇГ«Г ГІГҐГ«ГјГ№ГЁГЄГ®Гў";
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
 			this->groupBox1->ResumeLayout(false);
@@ -243,9 +206,9 @@ namespace Taxes {
 		}
 #pragma endregion
 	
-private: System::Void выход_Click(System::Object^ sender, System::EventArgs^ e);
-private: System::Void наГлавнуюToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
-private: System::Void вернутьсяНазадToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void ГўГ»ГµГ®Г¤_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void Г­Г ГѓГ«Г ГўГ­ГіГѕToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
+private: System::Void ГўГҐГ°Г­ГіГІГјГ±ГїГЌГ Г§Г Г¤ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e);
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e);
 };
 }
